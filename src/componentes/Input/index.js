@@ -1,26 +1,20 @@
-import Input from '../Input'
-import styled from 'styled-components'
+import styled from "styled-components"
 
-const PesquisaContainer = styled.section`
-        background-image: linear-gradient(90deg, #002F52 35%, #326589 165%);
+const Input = styled.input`
+        border: 1px solid #FFF;
+        background: transparent;
+        border: 1px solid #FFF;
+        padding: 20px 140px;
+        border-radius: 50px;
+        width: 200px;
         color: #FFF;
-        text-align: center;
-        padding: 85px 0;
-        height: 270px;
-        width: 100%;
-`
-
-const Titulo = styled.h2`
-        color: #FFF;
-        font-size: 36px;
-        text-align: center;
-        width: 100%;
-`
-
-const Subtitulo = styled.h3`
         font-size: 16px;
-        font-weight: 500;
-        margin-bottom: 40px;
+        margin-bottom: 10px;
+
+        &::placeholder {
+                color: #FFF;
+                font-size: 16px;
+        }
 `
 
 export default Input
