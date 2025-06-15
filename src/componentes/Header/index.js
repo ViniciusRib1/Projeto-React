@@ -10,7 +10,7 @@ const HeaderContainer = styled.header`
 `
 
 function Header() {
-    return(
+    return (
         <HeaderContainer>
             <Logo/>
             <OpcoesHeader/>
